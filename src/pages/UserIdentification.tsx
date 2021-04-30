@@ -41,11 +41,11 @@ export function UserIdentification () {
     }
 
     async function handleSubmit () {
-        if(!name)
+        if(!userName)
             return Alert.alert('Me diz como chamar você 😢')
 
         try {
-            await AsyncStorage.setItem('@plantmanager:user', name)
+            await AsyncStorage.setItem('@plantmanager:user', userName)
             navigation.navigate('Confirmation', {
                 title: 'Prontinho',
                 subTitle: 'Agora vamos começar a cuidar das suas plantinhas com muito cuidado',
