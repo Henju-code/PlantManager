@@ -5,7 +5,7 @@
     <img alt="Linkedin" src="https://img.shields.io/badge/-Luis%20Henrique-29B6D1?label=Linkedin&logo=linkedin&style=flat-square">
   </a>
   <a href="https://github.com/henju-code/PlantManager/blob/main/.github/LICENSE.txt">
-    <img alt="GitHub license" src="https://img.shields.io/github/license/henju-code/PlantManager?logo=mint&style=flat-square">
+    <img alt="GitHub license" src="https://img.shields.io/badge/license-Mit-29B6D1">
   </a>
   <a href="https://github.com/henju-code/PlantManager/issues">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/henju-code/PlantManager?color=29B6D1&style=flat-square">
@@ -13,7 +13,7 @@
   <a href="https://github.com/henju-code/PlantManager/issues?q=is%3Aissue+is%3Aclosed">
     <img alt="GitHub issues" src="https://badgen.net/github/closed-issues/henju-code/PlantManager?color=29B6D1&style=flat-square">
   </a>
-  <a href="https://github.com/alexandredev3/plantmanager-nlw05/network">
+  <a href="https://github.com/henju-code/PlantManager/network">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/henju-code/PlantManager?color=29B6D1&style=flat-square">
   </a>
   <a href="https://github.com/henju-code/PlantManager/stargazers">
@@ -30,7 +30,7 @@
   <a href="#memo-Licença">Licença</a>
 </p>
 
-<img src="./.github/assets/plantmanager-updated.svg" />
+<img src="./.github/assets/PlantManager_Screenshots.svg" />
 
 ## :page_facing_up: Descrição
 O Plant Manager é um app para lembrar as pessoas de regar as suas plantinhas.
@@ -50,7 +50,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [x] Selecionar planta para ser lembrado de regar.
 - [x] Escolher horário para ser lembrado de regar a planta.
 - [x] Receber uma notificação lembrando você de regar a planta no horário que você escolheu.
-- [x] Remover plantas.
+- [x] Remover plantas salvas.
 - [x] Todos os dados são salvos no Local Storage do dispositivo.
 
 
@@ -58,20 +58,20 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Expo](https://expo.io/), Um dispositivo físico ou um emuldador, Baixe o Expo Client no seu dispositivo para [IOS](https://apps.apple.com/br/app/expo-go/id982107779) ou [Android](https://play.google.com/store/apps/details?id=host.exp.exponent), Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Expo](https://expo.io/), um emulador ou dispositivo fisico usando o Expo Client para [IOS](https://apps.apple.com/br/app/expo-go/id982107779) ou [Android](https://play.google.com/store/apps/details?id=host.exp.exponent), Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ```bash
 # Clone este repositório.
 $ git clone https://github.com/Henju-code/PlantManager.git
 
-# Vá para a pasta plantmanager-nlw05
+# Vá para a pasta PlantManager
 $ cd PlantManager
 
 # Instale as dependências
 $ npm install 
 
 # Execute aplicação
-$ npm run start
+$ expo start
 
 # Leia o Código QR com Expo Client que você baixou no seu dispositivo, não se esqueça de colocar o seu endereço ip lan no diretório ./src/services/api na baseURL.
 ```
@@ -88,7 +88,7 @@ $ npm run start
 Feito com ❤️ por Luis Henrique :wave::wave: Entre em contato!🚀
 
 <a href="https://www.linkedin.com/in/luis-henrique-0599b8178">
-  <img alt="Linkedin" src="https://img.shields.io/badge/-Luis%20Henrique-9871F5?label=Linkedin&logo=linkedin&style=flat-square">
+  <img alt="Linkedin" src="https://img.shields.io/badge/-Luis%20Henrique-29B6D1?label=Linkedin&logo=linkedin&style=flat-square">
 </a>
 
 
