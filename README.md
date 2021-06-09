@@ -60,7 +60,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Expo](https://expo.io/), um emulador ou dispositivo fisico usando o Expo Client para [IOS](https://apps.apple.com/br/app/expo-go/id982107779) ou [Android](https://play.google.com/store/apps/details?id=host.exp.exponent), Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-</br>
 
 #### _Clone este repositório._
 ```bash
@@ -77,11 +76,12 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
  npm install 
 ```
 
-#### _Execute aplicação_
+#### _Execute a aplicação_
 ```bash
  expo start
 ```
- Leia o Código QR com Expo Client que você baixou no seu dispositivo, não se esqueça de colocar o seu endereço ip lan no diretório ./src/services/api na baseURL.
+
+Leia o Código QR com Expo Client que você baixou no seu dispositivo, não se esqueça de colocar o seu endereço ip lan no diretório ./src/services/api na baseURL.
 
 </br>
 
